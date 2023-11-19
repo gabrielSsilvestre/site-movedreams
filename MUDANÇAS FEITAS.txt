@@ -1,0 +1,25 @@
+MUDANÇAS FEITAS NO PROJETO
+
+Gabriel Silva Silvestre 17/11/23
+
+1° Adição de 3 novas paginas no site (cadastro, login e tela inicial de perfil logado, com seus arquivos de CSS e JS)
+
+2° Criado o campo de calculo de frete de encomendas de acordo com a logica feita em JavaScript 
+(detalhes estão no arquivo "index.js")
+
+3° A apresentação do calculo de frete é feita atraves de um "h2" nas paginas 
+("index.html" e "index2.html") apos o usuario inserir as informações.
+
+4° No arquivo "index.html" criado links de acesso para login ou cadastro.
+
+5° Criada a pagina de cadastro inteiramente do zero.
+
+6° As funcionalidades do JS para efetuar o cadastro são armazenadas com "localStorage" 
+e o usuario é direcionado para a pagina de login.
+
+7° Pagina de login reformulada para familiarização com o site.
+
+8° Apos o usuario efetuar o login ele é levado para a pagina com perfil logado ("index2.html")
+
+9° Pagina "index2.html" feita com codigo da pagina "index.html"
+onde o usuario pode navegar com seu acesso.

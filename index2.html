@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>MoveDreams - Transportes</title>
+</head>
+<body>
+  <header class="cima">
+    <div class="logo">
+      <img src="logo4.png" alt="MoveDreams">
+      <h1 class="log1">MoveDreams Transportes</h1>
+
+    </div>
+    <nav class="menu">
+      <ul >
+        <li><a href="#home">INICIO</a></li>
+        <li><a href="#services">SEVIÇOS</a></li>
+        <li><a href="#about">SOBRE</a></li>
+        <li><a href="#contact">CONTATO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Bem-vindo à MoveDreams</h1>
+    <p>Sua solução em transporte de carga e logística.</p>
+
+  </section>
+
+  <section id="services">
+    <h2>Nossos Serviços</h2>
+    <p>A MoveDreams oferece uma variedade de serviços de transporte para atender às suas necessidades:</p>
+    <h4>Transporte Local</h4>
+    <p>Oferecemos serviços de transporte local dentro da cidade, garantindo que <br>suas mercadorias sejam entregues de forma rápida e segura.</p>
+  
+    <h4>Transporte Regional</h4>
+    <p>Realizamos transportes regionais para atender às necessidades de <br> nossos clientes em áreas adjacentes à cidade.</p>
+  
+    <h4>Transporte Nacional</h4>
+    <p>Nossa empresa oferece serviços de transporte em todo o país, <br>possibilitando que suas mercadorias cheguem a qualquer destino nacional.</p>
+  
+    
+    <h4>Transporte de Cargas Especiais</h4>
+    <p>Contamos com os recursos e conhecimentos necessários para lidar com <br>o transporte de cargas especiais, como cargas frágeis, perecíveis e de grande porte.</p>
+  
+    <h4>Armazenamento</h4>
+    <p>Além dos serviços de transporte, também oferecemos soluções de armazenamento <br> seguro para suas mercadorias.</p>
+  
+    <h4>Rastreamento de Cargas</h4>
+    <p>Disponibilizamos um sistema de rastreamento de cargas online para que <br>você possa acompanhar o progresso e a localização de suas remessas.</p>
+  <section class="imagens">
+    <div >
+    <img src="caminhao1.png" alt="caminhoes infileirados">
+    <p> Contamos com uma frota moderna de caminões, para dar o melhor atendimento para nossos clientes.</p>
+ 
+   </div>
+   <img src="tipos.png" alt="Tipos de transportes, caminhões, vans de pequeno e grande porte.">
+   <div>
+    <p> Nossa empresa conta com uma grande escala de veiculos adequados para cada serviço.</p>
+
+    </div>
+   <img src="mudancas.png" alt="Homem fazendo mudança">
+   <div> 
+    <p> Nossos colaboradores são super treinados para qualquertipo de trabalho.</p>
+    </div>
+    <img src="mapa.png" alt="mapa do brasil">
+    <p>Nossos serviços estão espalhados pelo Brasil.</p>
+  </section>
+
+<!--ADICIONADO O CAMPO DE CALCUO DE FRETE-->
+  </section>
+    
+    <div id="carreto">
+      <h3>Distância em Km (maximo: 200km)</h3>
+      <input type="number" name="km" id="local"> <br>
+      <h3>Peso da Carga (maximo: 1 tonelada)</h3>
+      <input type="number" name="kg" id="carga"> <br>
+      <button type="button" onclick="calculo()" id="botao">Calcular</button> <br>
+    </div>
+    <h2 id="frete"></h2>
+
+  <section id="about">
+    <h2>Sobre</h2>
+    A MoveDreams Transportes é uma empresa especializada em soluções logísticas e <br> transporte de cargas. Com uma equipe experiente e uma <br> ampla rede de parceiros, estamos comprometidos em fornecer serviços confiáveis <br> e eficientes para atender às necessidades de nossos clientes.</p>
+
+    <h2>Nossa Missão</h2>
+    <p>Nossa missão é fornecer soluções de transporte personalizadas e de qualidade, buscando sempre a satisfação total <br>dos nossos clientes. Buscamos aprimorar continuamente nossos processos e investir em tecnologias <br> avançadas para garantir que as mercadorias sejam entregues com segurança e no prazo.</p>
+
+    <h2>Nossos Valores</h2>
+  
+    <li>Comprometimento com a excelência</li>
+    <li>Integridade e ética nos negócios</li>
+    <li>Atendimento ao cliente de alta qualidade</li>
+    <li>Inovação e melhoria contínua</li>
+    <li>Respeito pelas pessoas e pelo meio ambiente</li>
+  </section>
+
+  <section id="contact">
+    <h2>Entre em Contato</h2>
+    <h2>Endereço</h2>
+    <p>Rua Fictícia, 123</p>
+    <p>Cidade Fictícia</p>
+    <p>CEP: 12345-678</p>
+
+    <h2>Telefone</h2>
+    <p>(XX) XXXX-XXXX</p>
+
+    <h2>Email</h2>
+    <p>info@movedreamstransportes.com</p>
+
+    <h2>Redes Sociais</h2>
+    <ul>
+    <li><a href="https://www.facebook.com/movedreamstransportes" target="_blank">Facebook</a></li>
+    <li><a href="https://twitter.com/movedreams" target="_blank">Twitter</a></li>
+    <li><a href="https://www.instagram.com/movedreamstransportes" target="_blank">Instagram</a></li>
+    </ul>
+
+    <h2>Formulário de Contato</h2>
+    <form action="processar_contato.php" method="POST">
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="mensagem">Mensagem:</label><br>
+      <textarea id="mensagem" name="mensagem"></textarea><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+  <div class="opa">
+    <img src="logoempresa2.png" alt="logo da empresa MoveDreams">
+  </div>
+
+  <script src="index.js"></script>
+  <footer>
+    <p>Copyright &copy; 2021 MoveDreams</p>
+  </footer>
+</body>
+</html>

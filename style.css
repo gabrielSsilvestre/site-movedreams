@@ -1,0 +1,126 @@
+*{
+  text-align: center;
+}
+body {
+    background: #f1f1f1;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(231, 13, 13);
+    
+  }
+  .imagens {
+    color: black;
+  }
+  .cima {
+    background-image: linear-gradient(to left,#eca175, #cca489);
+    align-items: center;    
+  }
+  
+  body{
+    background: url('logoempresa3.png') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 90px;
+  
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #f70606;
+  }
+  
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #eea676;
+    color: #f30909;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  h1, h2 {
+    color: #f53d06;
+  }
+  
+  #services ul {
+    list-style: disc;
+    text-align: left;
+  }
+  
+  #contact ul {
+    list-style: none;
+    text-align: left;
+  }
+  .opa {
+    opacity: 0.8;
+  }
+  footer {
+    background-color: #eea676;
+    color: #f53d06;
+    padding: 10px;
+    text-align: center;
+}
+.log1 {
+  align-items: center;
+  
+}
+.menu :hover {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: red;
+  list-style:none;
+  text-align: center;
+}
+
+/*CSS DO CAMPO DE CALCULO DE FRETE*/
+#botao {
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #f53d06;
+  transition: 0.7s;
+  
+}
+#botao:hover {
+  background-color: #f53d06;
+  color: #fff;
+  transition: 0.7s;
+}
+
+#frete {
+  margin-top: 3rem;
+}
